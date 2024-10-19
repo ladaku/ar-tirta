@@ -1,0 +1,846 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="icon" type="image/x-icon" href="assets/images/art.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>
+      AR Tirta - Memenuhi Kebutuhan Air Anda
+    </title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!--
+    
+    TemplateMo 570 Chain App Dev
+    
+    https://templatemo.com/tm-570-chain-app-dev
+    
+    -->
+
+    <!-- Additional CSS Files -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/templatemo-chain-app-dev.css" />
+    <link rel="stylesheet" href="assets/css/animated.css" />
+    <link rel="stylesheet" href="assets/css/owl.css" />
+    <link rel="stylesheet" href="assets/css/my.css" />
+  </head>
+
+  <body>
+
+    <!-- ***** Preloader Start ***** -->
+    <div id="js-preloader" class="js-preloader">
+      <div class="preloader-inner">
+        <span class="dot"></span>
+        <div class="dots">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+    <!-- ***** Preloader End ***** -->
+
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <nav class="main-nav">
+              <!-- ***** Logo Start ***** -->
+              <a href="/" class="logo" style="width: 55px">
+                <img src="assets/images/art.jpg" width="20" alt="AR Tirta Logo" />
+
+              </a>
+              <!-- ***** Logo End ***** -->
+              <!-- ***** Menu Start ***** -->
+              <ul class="nav">
+                <li class="scroll-to-section">
+                  <a href="#top" class="active">Home</a>
+                </li>
+                <li class="scroll-to-section">
+                  <a href="#services">Produk & Jasa</a>
+                </li>
+                <li class="scroll-to-section">
+                  <a href="#gallery">Gallery</a>
+                </li>
+                <li class="scroll-to-section">
+                  <a href="#clients">Testimoni</a>
+                </li>
+                <li class="scroll-to-section">
+                  <a href="#certif">Sertifikasi</a>
+                </li>
+                <li class="scroll-to-section">
+                  <a href="#contact">Kontak</a>
+                </li>
+                {{--  <li>
+                  <div class="gradient-button">
+                    <a id="modal_trigger" href="#modal">                      <i class="fa fa-sign-in-alt"></i>Sign In Now</a>
+                  </div>
+                </li>  --}}
+              </ul>
+              <a class='menu-trigger'>
+                <span>Menu</span>
+              </a>
+              <!-- ***** Menu End ***** -->
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
+    <div id="modal" class="popupContainer" style="display:none;">
+      <div class="popupHeader">
+        <span class="header_title">Login</span>
+        <span class="modal_close">          <i class="fa fa-times"></i></span>
+      </div>
+
+      <section class="popupBody">
+        <!-- Social Login -->
+        <div class="social_login">
+          <div class="">
+            <a href="#" class="social_box fb">
+              <span class="icon">                <i class="fab fa-facebook"></i></span>
+              <span class="icon_title">Connect with Facebook</span>
+
+            </a>
+
+            <a href="#" class="social_box google">
+              <span class="icon">                <i class="fab fa-google-plus"></i></span>
+              <span class="icon_title">Connect with Google</span>
+            </a>
+          </div>
+
+          <div class="centeredText">
+            <span>Or use your Email address</span>
+          </div>
+
+          <div class="action_btns">
+            <div class="one_half">
+              <a href="#" id="login_form" class="btn">Login</a>
+            </div>
+            <div class="one_half last">
+              <a href="#" id="register_form" class="btn">Sign up</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Username & Password Login form -->
+        <div class="user_login">
+          <form>
+            <label>Email / Username</label>
+            <input type="text" />
+            <br />
+
+            <label>Password</label>
+            <input type="password" />
+            <br />
+
+            <div class="checkbox">
+              <input id="remember" type="checkbox" />
+              <label for="remember">Remember me on this computer</label>
+            </div>
+
+            <div class="action_btns">
+              <div class="one_half">
+                <a href="#" class="btn back_btn">                  <i class="fa fa-angle-double-left"></i>Back</a>
+              </div>
+              <div class="one_half last">
+                <a href="#" class="btn btn_red">Login</a>
+              </div>
+            </div>
+          </form>
+
+          <a href="#" class="forgot_password">Forgot password?</a>
+        </div>
+
+        <!-- Register Form -->
+        <div class="user_register">
+          <form>
+            <label>Full Name</label>
+            <input type="text" />
+            <br />
+
+            <label>Email Address</label>
+            <input type="email" />
+            <br />
+
+            <label>Password</label>
+            <input type="password" />
+            <br />
+
+            <div class="checkbox">
+              <input id="send_updates" type="checkbox" />
+              <label for="send_updates">Send me occasional email updates</label>
+            </div>
+
+            <div class="action_btns">
+              <div class="one_half">
+                <a href="#" class="btn back_btn">                  <i class="fa fa-angle-double-left"></i>Back</a>
+              </div>
+              <div class="one_half last">
+                <a href="#" class="btn btn_red">Register</a>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+    </div>
+
+    <div class="main-banner wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="row">
+              <div class="col-lg-6 align-self-center">
+                <div
+                  class="left-content show-up header-text wow fadeInLeft"
+                  data-wow-duration="1s"
+                  data-wow-delay="1s"
+                >
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <h2>
+                        💧 Kesegaran Murni dari Alam Pegunungan
+                      </h2>
+                      <p class="h6">
+                        AR Tirta hadir untuk memberikan kesegaran murni dari sumber pegunungan alami. Diambil langsung dari jantung alam, air kami diproses secara alami melalui lapisan mineral yang kaya, memastikan Anda mendapatkan air berkualitas tinggi dengan rasa yang segar dan kandungan mineral yang baik untuk tubuh. Kami Melayani Area Semarang, Demak, Kudus, Kendal & Grobogan Dll.
+                      </p>
+                    </div>
+                    <div class="col-lg-12">
+                      <div class="white-button first-button scroll-to-section ">
+                        <a
+                          style="background-color: #3bdb56"
+                          target="_blank"
+                          href="https://wa.me/6281999166217?text=Halo!%20AR%20Tirta%20%0ASaya%20ingin%20memesan%20Air%20Gunung.%20Berikut%20detail%20pesanan%20saya:%0A%0A-%20Nama:%20[Isi%20Nama%20Anda]%0A-%20Alamat%20Pengiriman:%20[Isi%20Alamat%20Lengkap]%0A-%20Produk:%20[Contoh:%20Galon/Botol%201,5L/500ml]%0A-%20Jumlah:%20[Isi%20Jumlah%20Pesanan]%0A-%20Catatan%20Tambahan:%20[Opsional]%0A%0AApakah%20pesanan%20saya%20bisa%20segera%20diproses?%20Terima%20kasih!%20"
+                        >Pesan Sekarang <i class="fab fa-whatsapp"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+                  <img src="assets/images/water.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="services" class="services section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 offset-lg-2">
+            <div class="section-heading  wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
+              <h4>
+                Produk dan Layanan Kami Untuk Mu
+              </h4>
+              <img src="assets/images/heading-line-dec.png" alt="" />
+              <p>
+                Air kami bersumber dari mata air pegunungan yang belum terkontaminasi, menjaga kualitas dan kesegaran alami
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="service-item first-service">
+              <div class="iconn">
+                <img class="rounded-2" src="assets/images/pabrik.jpg" />
+              </div>
+              <h4 class="mt-3">
+                Pabrik/Industri
+              </h4>
+              <p>
+                AR Tirta hadir sebagai mitra terpercaya untuk memenuhi kebutuhan pemasangan depo isi ulang di berbagai lokasi, mulai dari pemukiman hingga area komersial.
+              </p>
+              <div class="text-button">
+                <a href="#">Chat Sekarang <i class="fa fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="service-item second-service">
+              <div class="iconn">
+                <img class="rounded-2" src="assets/images/depo-air-isi-ulang.jpg" />
+              </div>
+              <h4 class="mt-3">
+                Depo isi ulang
+              </h4>
+              <p>
+                Dikenal kaya akan mineral penting, Air Gunung Segar membantu menjaga keseimbangan tubuh dan meningkatkan daya tahan Anda
+              </p>
+              <div class="text-button">
+                <a
+                  href="https://wa.me/6281999166217?text=Halo!%20AR%20Tirta%20%0ASaya%20ingin%20memesan%20Air%20Gunung.%20Berikut%20detail%20pesanan%20saya:%0A%0A-%20Nama:%20[Isi%20Nama%20Anda]%0A-%20Alamat%20Pengiriman:%20[Isi%20Alamat%20Lengkap]%0A-%20Produk:%20[Contoh:%20Galon/Botol%201,5L/500ml]%0A-%20Jumlah:%20[Isi%20Jumlah%20Pesanan]%0A-%20Catatan%20Tambahan:%20[Opsional]%0A%0AApakah%20pesanan%20saya%20bisa%20segera%20diproses?%20Terima%20kasih!%20"
+                >Chat Sekarang <i class="fa fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="service-item third-service">
+              <div class="iconn">
+                <img class="rounded-2" src="assets/images/galon.jpg" />
+              </div>
+              <h4 class="mt-3">
+                Aqua Asli & Le Mineral
+              </h4>
+              <p>
+                Kami Juga Melayani Pembelian Untuk Aqua Asli & Le Mineral Galon
+              </p>
+              <div class="text-button">
+                <a
+                  href="https://wa.me/6281999166217?text=Halo!%20AR%20Tirta%20%0ASaya%20ingin%20memesan%20Air%20Gunung.%20Berikut%20detail%20pesanan%20saya:%0A%0A-%20Nama:%20[Isi%20Nama%20Anda]%0A-%20Alamat%20Pengiriman:%20[Isi%20Alamat%20Lengkap]%0A-%20Produk:%20[Contoh:%20Galon/Botol%201,5L/500ml]%0A-%20Jumlah:%20[Isi%20Jumlah%20Pesanan]%0A-%20Catatan%20Tambahan:%20[Opsional]%0A%0AApakah%20pesanan%20saya%20bisa%20segera%20diproses?%20Terima%20kasih!%20"
+                >Chat Sekarang <i class="fa fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="service-item fourth-service">
+
+              <div class="iconn">
+                <img class="rounded-2" src="assets/images/htl.jpg" />
+              </div>
+              <h4 class="mt-3">
+                Hotel
+              </h4>
+              <p>
+                AR Tirta hadir sebagai mitra terpercaya untuk memenuhi standar tertinggi dalam industri perhotelan
+              </p>
+              <div class="text-button">
+                <a
+                  href="https://wa.me/6281999166217?text=Halo!%20AR%20Tirta%20%0ASaya%20ingin%20memesan%20Air%20Gunung.%20Berikut%20detail%20pesanan%20saya:%0A%0A-%20Nama:%20[Isi%20Nama%20Anda]%0A-%20Alamat%20Pengiriman:%20[Isi%20Alamat%20Lengkap]%0A-%20Produk:%20[Contoh:%20Galon/Botol%201,5L/500ml]%0A-%20Jumlah:%20[Isi%20Jumlah%20Pesanan]%0A-%20Catatan%20Tambahan:%20[Opsional]%0A%0AApakah%20pesanan%20saya%20bisa%20segera%20diproses?%20Terima%20kasih!%20"
+                >Chat Sekarang <i class="fa fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="gallery" class="about-us section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 align-self-center">
+            <div class="section-heading">
+              <h4>
+                Gallery <em>Kami</em>
+              </h4>
+              <img src="assets/images/heading-line-dec.png" alt="" />
+              <p>
+                Dapatkan Pelayanan Suply Air Minum Terbaik Hanya Disini.
+              </p>
+            </div>
+            <div class="album">
+              <div class="responsive-container-block bg">
+                <div class="responsive-container-block img-cont">
+                  <img class="img" src="assets/images/gallery/IMG-20241013-WA0002.jpg" />
+                  <img class="img" src="assets/images/gallery/IMG-20241013-WA0003.jpg" />
+                  <img class="img img-last" src="assets/images/gallery/IMG-20241013-WA0009.jpg" />
+                </div>
+                <div class="responsive-container-block img-cont">
+                  <img class="img img-big" src="assets/images/gallery/IMG-20241013-WA0004.jpg" />
+                  <img class="img img-bigm d-none d-md-inline-block" src="assets/images/gallery/asdf.jpeg" />
+                  <img class="img img-big img-last" src="assets/images/gallery/IMG-20241013-WA0005.jpg" />
+                </div>
+                <div class="responsive-container-block img-cont">
+                  <img class="img" src="assets/images/gallery/IMG-20241013-WA0006.jpg" />
+                  <img class="img" src="assets/images/gallery/IMG-20241013-WA0007.jpg" />
+                  <img class="img" src="assets/images/gallery/IMG-20241013-WA0010.jpg" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="clients" class="the-clients">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 offset-lg-2">
+            <div class="section-heading">
+              <h4>
+                Testimoni <em>Apa Kata Mereka</em>
+              </h4>
+              <img src="assets/images/heading-line-dec.png" alt="" />
+              <p>
+                Cerita Mereka Tentang Kami
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-12">
+            <div class="naccs">
+              <div class="grid">
+                <div class="row">
+                  <div class="col-lg-7 align-self-center">
+                    <div class="menu">
+                      <div class="first-thumb active">
+                        <div class="thumb">
+                          <div class="row">
+                            <div class="col-lg-4 col-sm-4 col-12">
+                              <h4>
+                                Rina
+                              </h4>
+                              <span class="date">30 Januari 2024</span>
+                            </div>
+                            <div class="col-lg-4 col-sm-4 d-none d-sm-block">
+                              <span class="category">Depo Isi Ulang</span>
+                            </div>
+                            <div class="col-lg-4 col-sm-4 col-12">
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <span class="rating">4.8</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div>
+                        <div class="thumb">
+                          <div class="row">
+                            <div class="col-lg-4 col-sm-4 col-12">
+                              <h4>
+                                Dimas
+                              </h4>
+                              <span class="date">29 Juni 2024</span>
+                            </div>
+                            <div class="col-lg-4 col-sm-4 d-none d-sm-block">
+                              <span class="category">Pabrik/Industri</span>
+                            </div>
+                            <div class="col-lg-4 col-sm-4 col-12">
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <span class="rating">4.8</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div>
+                        <div class="thumb">
+                          <div class="row">
+                            <div class="col-lg-4 col-sm-4 col-12">
+                              <h4>
+                                Sarah
+                              </h4>
+                              <span class="date">12 Oktober 2024</span>
+                            </div>
+                            <div class="col-lg-4 col-sm-4 d-none d-sm-block">
+                              <span class="category">Aqua Asli & Le Mineral</span>
+                            </div>
+                            <div class="col-lg-4 col-sm-4 col-12">
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <span class="rating">4.7</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="last-thumb">
+                        <div class="thumb">
+                          <div class="row">
+                            <div class="col-lg-4 col-sm-4 col-12">
+                              <h4>
+                                Arief
+                              </h4>
+                              <span class="date">4 November 2024</span>
+                            </div>
+                            <div class="col-lg-4 col-sm-4 d-none d-sm-block">
+                              <span class="category">Pabrik/Industri</span>
+                            </div>
+                            <div class="col-lg-4 col-sm-4 col-12">
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <span class="rating">4.7</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-5">
+                    <ul class="nacc">
+                      <li class="active">
+                        <div>
+                          <div class="thumb">
+                            <div class="row">
+                              <div class="col-lg-12">
+                                <div class="client-content">
+                                  <img src="assets/images/quote.png" alt="" />
+                                  <p>
+                                    “Air Mineral Gunung AR Tirta adalah pilihan terbaik untuk kebutuhan air minum sehari-hari saya. Rasanya segar dan murni, benar-benar terasa alami! Saya suka bagaimana Air Mineral AR Tirta menjaga kualitas airnya yang berasal dari mata air pegunungan, terasa lebih ringan di tenggorokan. Setelah rutin meminumnya, saya merasa lebih sehat dan bertenaga. Sangat direkomendasikan untuk siapa saja yang peduli dengan kesehatan!.”
+                                  </p>
+                                </div>
+                                <div class="down-content">
+                                  <div class="right-content">
+                                    <h4>
+                                      Rina
+                                    </h4>
+                                    <span></span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <div class="thumb">
+                            <div class="row">
+                              <div class="col-lg-12">
+                                <div class="client-content">
+                                  <img src="assets/images/quote.png" alt="" />
+                                  <p>
+                                    “Saya sudah mencoba banyak merek air mineral, tapi Air Mineral AR Tirta memiliki rasa yang paling murni dan segar. Setiap botolnya membuat saya merasa lebih segar, terutama setelah berolahraga. Selain itu, saya juga senang dengan kemasannya yang ramah lingkungan. Air Mineral Gunung Tirta benar-benar mengutamakan kualitas!.”
+                                  </p>
+                                </div>
+                                <div class="down-content">
+                                  <div class="right-content">
+                                    <h4>
+                                      Dimas
+                                    </h4>
+                                    <span></span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <div class="thumb">
+                            <div class="row">
+                              <div class="col-lg-12">
+                                <div class="client-content">
+                                  <img src="assets/images/quote.png" alt="" />
+                                  <p>
+                                    “Kualitas air mineral AR Tirta yang diambil langsung dari sumber pegunungan alami ini sangat terjamin. Setiap teguk Air Mineral Gunung AR Tirta memberikan kesegaran yang luar biasa, apalagi ketika diminum dingin. Pilihan terbaik untuk menemani aktivitas harian saya. Sangat memuaskan!.”
+                                  </p>
+                                </div>
+                                <div class="down-content">
+                                  <div class="right-content">
+                                    <h4>
+                                      Sarah
+                                    </h4>
+                                    <span></span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <div class="thumb">
+                            <div class="row">
+                              <div class="col-lg-12">
+                                <div class="client-content">
+                                  <img src="assets/images/quote.png" alt="" />
+                                  <p>
+                                    “Air Mineral Gunung AR Tirta menjadi andalan keluarga kami. Rasanya bersih dan menyegarkan, bahkan anak-anak pun sangat menyukainya. Kami merasa tenang karena tahu bahwa air ini aman dan sehat untuk dikonsumsi setiap hari. Kami selalu stok di rumah dan kantor!.”
+                                  </p>
+                                </div>
+                                <div class="down-content">
+                                  {{--  <img src="assets/images/client-image.jpg" alt="" />  --}}
+                                  <div class="right-content">
+                                    <h4>
+                                      Arief
+                                    </h4>
+                                    <span></span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="certif" class="pricing-tables">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 offset-lg-2">
+            <div class="section-heading">
+              <h4>
+                Sertifikasi
+              </h4>
+              <img src="assets/images/heading-line-dec.png" alt="" />
+              <p>
+                Tentunya Kami Juga Memiliki Sertifikasi kesehatan Dari Balai Pengujian.
+              </p>
+              <a href="/sertifikasi">                <button class="mt-3 btn btn-outline-info ">Lihat Sertifikasi</button></a>
+
+            </div>
+          </div>
+          <div class="col-12">
+            {{--  <iframe src="assets/certif/certif-ar-tirta.pdf" width="400">  --}}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="contact" class="pricing-tables">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 offset-lg-2">
+            <div class="section-heading">
+              <h4>
+                Kontak
+              </h4>
+              <img src="assets/images/heading-line-dec.png" alt="" />
+              <p>
+                Hubungi Kami Lebih Lanjut
+              </p>
+              {{--  <a href="/sertifikasi">                <button class="mt-3 btn btn-outline-info ">Lihat Sertifikasi</button></a>  --}}
+
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-6 d-flex justify-content-center">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d506.7919291463581!2d110.53965463439337!3d-7.01199492334868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zN8KwMDAnNDMuMyJTIDExMMKwMzInMjIuMSJF!5e0!3m2!1sen!2sid!4v1729301984889!5m2!1sen!2sid"
+              height="450"
+              style="border:0;"
+              allowfullscreen=""
+              loading="lazy"
+              class="maps"
+              referrerpolicy="no-referrer-when-downgrade"
+            >
+            </iframe>
+            {{--  <iframe src="assets/certif/certif-ar-tirta.pdf" width="400">  --}}
+          </div>
+          <div class="col-sm-12 col-md-6 d-flex flex-column">
+            <img src="assets/images/gallery/banner.jpg" />
+            <div class="white-button first-button scroll-to-section mt-2">
+              <a
+                style="color: white !important; background-color: #3bdb56"
+                target="_blank"
+                href="https://wa.me/6281999166217?text=Halo!%20AR%20Tirta%20%0ASaya%20ingin%20memesan%20Air%20Gunung.%20Berikut%20detail%20pesanan%20saya:%0A%0A-%20Nama:%20[Isi%20Nama%20Anda]%0A-%20Alamat%20Pengiriman:%20[Isi%20Alamat%20Lengkap]%0A-%20Produk:%20[Contoh:%20Galon/Botol%201,5L/500ml]%0A-%20Jumlah:%20[Isi%20Jumlah%20Pesanan]%0A-%20Catatan%20Tambahan:%20[Opsional]%0A%0AApakah%20pesanan%20saya%20bisa%20segera%20diproses?%20Terima%20kasih!%20"
+              >Pesan Sekarang <i class="fab fa-whatsapp"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer id="newsletter">
+      <div class="container">
+        <p class="text-center" style="color: white !important">
+          AR Tirta Copyright 2024
+        </p>
+        {{--  <div class="row">
+          <div class="col-lg-8 offset-lg-2">
+            <div class="section-heading">
+              <h4>
+                Join our mailing list to receive the news &amp; latest trends
+              </h4>
+            </div>
+          </div>
+          <div class="col-lg-6 offset-lg-3">
+            <form id="search" action="#" method="GET">
+              <div class="row">
+                <div class="col-lg-6 col-sm-6">
+                  <fieldset>
+                    <input
+                      type="address"
+                      name="address"
+                      class="email"
+                      placeholder="Email Address..."
+                      autocomplete="on"
+                      required
+                    />
+                  </fieldset>
+                </div>
+                <div class="col-lg-6 col-sm-6">
+                  <fieldset>
+                    <button type="submit" class="main-button">Subscribe Now <i class="fa fa-angle-right"></i></button>
+                  </fieldset>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="footer-widget">
+              <h4>
+                Contact Us
+              </h4>
+              <p>
+                Rio de Janeiro - RJ, 22795-008, Brazil
+              </p>
+              <p>
+                <a href="#">010-020-0340</a>
+              </p>
+              <p>
+                <a href="#">info
+                  @company.co
+                </a>
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="footer-widget">
+              <h4>
+                About Us
+              </h4>
+              <ul>
+                <li>
+                  <a href="#">Home</a>
+                </li>
+                <li>
+                  <a href="#">Services</a>
+                </li>
+                <li>
+                  <a href="#">About</a>
+                </li>
+                <li>
+                  <a href="#">Testimonials</a>
+                </li>
+                <li>
+                  <a href="#">Pricing</a>
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <a href="#">About</a>
+                </li>
+                <li>
+                  <a href="#">Testimonials</a>
+                </li>
+                <li>
+                  <a href="#">Pricing</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="footer-widget">
+              <h4>
+                Useful Links
+              </h4>
+              <ul>
+                <li>
+                  <a href="#">Free Apps</a>
+                </li>
+                <li>
+                  <a href="#">App Engine</a>
+                </li>
+                <li>
+                  <a href="#">Programming</a>
+                </li>
+                <li>
+                  <a href="#">Development</a>
+                </li>
+                <li>
+                  <a href="#">App News</a>
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <a href="#">App Dev Team</a>
+                </li>
+                <li>
+                  <a href="#">Digital Web</a>
+                </li>
+                <li>
+                  <a href="#">Normal Apps</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="footer-widget">
+              <h4>
+                About Our Company
+              </h4>
+              <div class="logo">
+                <img src="assets/images/white-logo.png" alt="" />
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-12">
+            <div class="copyright-text">
+              <p>
+                Copyright © 2022 Chain App Dev Company. All Rights Reserved.
+          <br />Design: <a href="https://templatemo.com/" target="_blank" title="css templates">TemplateMo</a>
+              </p>
+            </div>
+          </div>
+        </div>  --}}
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="vendor/jquery/jquery.min.js">
+      
+    </script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js">
+      
+    </script>
+    <script src="assets/js/owl-carousel.js">
+      
+    </script>
+    <script src="assets/js/animation.js">
+      
+    </script>
+    <script src="assets/js/imagesloaded.js">
+      
+    </script>
+    <script src="assets/js/popup.js">
+      
+    </script>
+    <script src="assets/js/custom.js">
+      
+    </script>
+  </body>
+</html>
