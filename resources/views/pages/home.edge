@@ -651,12 +651,12 @@
 
           <div class="col-sm-12 col-md-6 d-flex justify-content-center">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d506.7919291463581!2d110.53965463439337!3d-7.01199492334868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zN8KwMDAnNDMuMyJTIDExMMKwMzInMjIuMSJF!5e0!3m2!1sen!2sid!4v1729301984889!5m2!1sen!2sid"
-              height="450"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d757.6422142973018!2d110.5392910174691!3d-7.011962308971352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e709342ac933c57%3A0x35dd5553c417fa47!2sAR%20Tirta%20(Depot%20air%20minum%20isi%20ulang)!5e0!3m2!1sid!2sid!4v1751584177968!5m2!1sid!2sid"
+              width="800"
+              height="600"
               style="border:0;"
               allowfullscreen=""
               loading="lazy"
-              class="maps"
               referrerpolicy="no-referrer-when-downgrade"
             >
             </iframe>
@@ -679,7 +679,7 @@
     <footer id="newsletter">
       <div class="container">
         <p class="text-center" style="color: white !important">
-          AR Tirta Copyright 2024
+          AR Tirta Copyright <span id="year"></span>
         </p>
         {{--  <div class="row">
           <div class="col-lg-8 offset-lg-2">
@@ -828,6 +828,11 @@
     </footer>
 
     <!-- Scripts -->
+    <script>
+      const year = new Date().getFullYear();
+      
+      document.getElementById("year").textContent = year;
+    </script>
     <script src="vendor/jquery/jquery.min.js">
       
     </script>
